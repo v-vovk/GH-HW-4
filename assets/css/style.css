@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.google-logo {
+    padding: 17px 14px;
+}
+
+.search-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
