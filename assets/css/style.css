@@ -4,7 +4,20 @@
   font: Arial;
 }
 
+header {
+  background: #FAFAFA;
+  border: 1px solid;
+  border-color: #E9E9E9;
+}
+
 .top-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.logo-search {
   display: flex;
   align-items: center;
 }
@@ -16,9 +29,10 @@
 form {
   display: flex;
   align-items: center;
+  background: #ffffff;
   border: 1px solid;
   border-radius: 3px;
-  border-color: #c5c5c5;
+  border-color: #E9E9E9;
   padding: 0 16px;
 }
 
@@ -42,6 +56,7 @@ input[type="image"] {
 
 button[type="submit"] {
   border: none; 
+  background: none;
 }
 
 button[type="submit"] img {
@@ -49,4 +64,14 @@ button[type="submit"] img {
   max-width: 17px;
   max-height: 17px;
   vertical-align: middle;
+}
+
+.right-nav {
+  display: flex;
+  align-items: center;
+  margin: 0 14px;
+}
+
+.right-nav img {
+  margin: 0 8px;
 }
