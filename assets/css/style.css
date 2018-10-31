@@ -93,7 +93,7 @@ button[type="submit"] img {
 }
 
 .current {
-  background: #1A73E8; //придумати як підкреслити "Все" і задати жирність
+  background: #1A73E8;  /* придумати як підкреслити "Все" і задати жирність */
 }
 /* end header style */
 
@@ -120,6 +120,7 @@ main {
 }
 
 .result-item p {
+  padding-top: 4px;
   font-size: 13px;
   line-height: 18px;
   font-weight: 400;
@@ -146,5 +147,5 @@ a.translate-page-link {
 
 .tags-for-search a {
   font-size: 13px;
-  padding: 0 10px 0 0;
+  padding: 0 8px 0 0;
 }
