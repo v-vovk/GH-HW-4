@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font: Arial;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -44,7 +44,7 @@ input {
 }
 
 input[name="q"] {
-  height: 48px;
+  height: 44px;
   width: 490px;
 }
 
@@ -70,7 +70,7 @@ button[type="submit"] img {
 .right-nav {
   display: flex;
   align-items: center;
-  margin: 0 14px;
+  margin: 0 37px;
 }
 
 .right-nav img {
