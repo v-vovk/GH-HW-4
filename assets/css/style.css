@@ -91,3 +91,60 @@ button[type="submit"] img {
   color: #808080;
   text-decoration: none;
 }
+
+.current {
+  background: #1A73E8; //придумати як підкреслити "Все" і задати жирність
+}
+/* end header style */
+
+/* start main */
+main {
+  max-width: 600px;
+  margin: 15px 0 32px 167px;
+}
+
+.how-many-result {
+  font-size: 13px;
+  color: #808080;
+}
+
+.result-item {
+  margin-top: 22px;
+}
+
+.result-item h2 {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #1A0DAB;
+}
+
+.result-item p {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #545454;
+}
+
+.result-item a {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #1A0DAB;
+}
+
+.link-translate {
+  display: flex;
+  align-items: center;
+}
+
+a.translate-page-link {
+  color: #006621;
+  padding-right: 8px;
+}
+
+.tags-for-search a {
+  font-size: 13px;
+  padding: 0 10px 0 0;
+}
