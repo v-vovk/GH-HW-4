@@ -14,7 +14,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .logo-search {
@@ -75,4 +74,20 @@ button[type="submit"] img {
 
 .right-nav img {
   margin: 0 8px;
+}
+
+.bottom-navigation {
+  margin: 6px 0 15px 167px;
+}
+
+.bottom-navigation ul li {
+  display     : inline-block;
+  font-size   : 13px;
+  font-weight : 400;
+  padding-right: 30px;
+} 
+
+.bottom-navigation ul li a {
+  color: #808080;
+  text-decoration: none;
 }
