@@ -1,6 +1,9 @@
 
 # Created by https://www.gitignore.io/api/macos,phpstorm,visualstudiocode
 
+/.idea/
+/.vscode/
+
 ### macOS ###
 # General
 .DS_Store
