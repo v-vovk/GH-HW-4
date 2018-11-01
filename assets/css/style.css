@@ -149,3 +149,32 @@ a.translate-page-link {
   font-size: 13px;
   padding: 0 8px 0 0;
 }
+
+.help-search {
+  margin: 40px 0 0 0;
+}
+
+.help-search h2 {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  padding-bottom: 12px;
+  color: #222222;
+}
+
+.help-search-block {
+  display: flex;
+}
+
+.help-search-item a {
+  padding: 3px 32px 3px 0;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #1A0DAB;
+}
+
+.help-search-item li {
+  list-style-type: none;
+}
