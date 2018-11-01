@@ -97,7 +97,7 @@ button[type="submit"] img {
 }
 /* end header style */
 
-/* start main */
+/* start main style */
 main {
   max-width: 600px;
   margin: 15px 0 32px 167px;
@@ -184,17 +184,21 @@ a.translate-page-link {
 }
 
 .pagination a {
-  color: black;
-  float: left;
+  color: #1A73E8;
   padding: 8px 16px;
   text-decoration: none;
 }
 
 .pagination a.active {
-  background-color: #4CAF50;
+  background-color: #1A73E8;
   color: white;
 }
 
 .pagination a:hover:not(.active) {
   background-color: #ddd;
 }
+
+.pagination {
+  margin: 30px auto;
+}
+/* end main style */
