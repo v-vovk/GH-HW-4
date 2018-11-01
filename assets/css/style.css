@@ -100,7 +100,7 @@ button[type="submit"] img {
 /* start main style */
 main {
   max-width: 600px;
-  margin: 15px 0 32px 167px;
+  margin: 15px 0 0 167px;
 }
 
 .how-many-result {
@@ -202,3 +202,58 @@ a.translate-page-link {
   margin: 30px auto;
 }
 /* end main style */
+
+/* start footer style */
+footer {
+  background: #FAFAFA;
+  border: 1px solid;
+  border-color: #E9E9E9;
+}
+
+.footer-container {
+  margin: 0px 0 15px 167px;
+}
+
+.footer-container p {
+  font-size: 13px;
+  line-height: 40px;
+  color: #5f6368;
+}
+
+.footer-container a {
+  text-decoration: none;
+  color: #5f6368;
+}
+
+.location {
+  display: flex;
+}
+
+p.country {
+  font-size: 15px;
+  line-height: 40px;
+  color: #5f6368;
+}
+
+.divider {
+  display: inline-block;
+  margin-left: 13px;
+  padding-left: 16px;
+  border-left: 1px solid #e4e4e4;
+}
+
+.footer-navigation {
+  margin-top: 6px;
+  border-top: 1px solid #e4e4e4;
+}
+
+.footer-navigation ul li {
+  display     : inline-block;
+  font-size   : 13px;
+  font-weight : 400;
+  padding: 14px 24px 0 0;
+} 
+
+.footer-navigation ul li a {
+  text-decoration: none;
+}
