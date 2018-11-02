@@ -77,23 +77,28 @@ button[type="submit"] img {
 }
 
 .bottom-navigation {
-  margin: 6px 0 15px 167px;
+  margin-left: 150px;
 }
 
 .bottom-navigation ul li {
-  display     : inline-block;
-  font-size   : 13px;
-  font-weight : 400;
-  padding-right: 30px;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 10px 15px 12px 15px;
 } 
 
-.bottom-navigation ul li a {
+.bottom-navigation a {
   color: #808080;
   text-decoration: none;
 }
 
 .current {
-  background: #1A73E8;  /* придумати як підкреслити "Все" і задати жирність */
+  border-bottom: 3px solid #1A73E8;
+}
+
+.current a {
+  font-weight: bold;
+  color: #1A73E8;
 }
 /* end header style */
 
@@ -227,7 +232,6 @@ footer {
 
 .location {
   display: flex;
-  align-items: top;
   border-bottom: 1px solid #e4e4e4;
   padding-left: 167px; 
 }
